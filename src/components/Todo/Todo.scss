@@ -9,3 +9,9 @@
     // background-color: #ffe2ce;
     color: $navyblue;
 }
+
+@media only screen and (max-width: 400px) {
+    .list__item {
+        font-size: 12pt;
+    }
+}
