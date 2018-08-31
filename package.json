@@ -2,7 +2,7 @@
   "name": "react-todo-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mlizchap.github.io/react-app-todo",
+  "homepage": "http://mlizchap.github.io/react-todo-app",
   "dependencies": {
     "custom-react-scripts": "0.2.2",
     "enzyme": "^3.5.0",
