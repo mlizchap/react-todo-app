@@ -11,6 +11,7 @@ class Input extends Component {
     }
     render() {
         return (
+            
             <form className="form" onSubmit={(e) => {
                 e.preventDefault();
                 this.setState({ val: '' });

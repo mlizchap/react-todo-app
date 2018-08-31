@@ -1,9 +1,17 @@
 @import "../../global";
 
-
 .container {
+    background-color: lightgoldenrodyellow;
+    
+    width: 80%;
     margin-right: auto;
     margin-left: auto;
-    width: $mainWidth;
-    max-width: $mainMaxWidth;
+
 }
+// .container {
+//     width: 100%;
+//     // display: flex;
+//     // flex-direction: column;
+//     // justify-content: center;
+//     // background-color: green;
+// }

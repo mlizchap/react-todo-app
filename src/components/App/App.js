@@ -31,8 +31,10 @@ class App extends Component {
     render() {
         return (
             <div>
+
                 <Header />
                 <div className="container">
+
                     <Input handleSubmit={this.submitTodo}/>
                     <ErrorMessage isError={this.state.error}/>
                     <TodoList todos={this.state.todos} handleClick={this.markCompleted} />
