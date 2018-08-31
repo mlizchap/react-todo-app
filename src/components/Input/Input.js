@@ -21,7 +21,7 @@ class Input extends Component {
                     value={this.state.val}
                     onChange={(e) => this.setState({ val: e.target.value })}
                 />
-                <button className="form__submitBtn" type="submit">+</button>
+                <input className="form__submitBtn" type="button" value="+"/>
             </form>
         );
     }

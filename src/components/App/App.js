@@ -4,7 +4,6 @@ import Header from '../Header/Header';
 import Input from '../Input/Input';
 import TodoList from '../TodoList/TodoList';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
-import './App.scss';
 
 class App extends Component {
     constructor(props) {
@@ -32,11 +31,11 @@ class App extends Component {
         return (
             <div>
                 <Header />
-                <div className="container">
+                {/* <div className="container"> */}
                     <Input handleSubmit={this.submitTodo}/>
                     <ErrorMessage isError={this.state.error}/>
                     <TodoList todos={this.state.todos} handleClick={this.markCompleted} />
-                </div>
+                {/* </div> */}
             </div>
         );
     }

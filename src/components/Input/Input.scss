@@ -1,15 +1,11 @@
 @import "../../global";
 
 .form {
-    width: $mainWidth;
-    max-width: $mainMaxWidth;
-    margin-right: auto;
-    margin-left: auto;
+    text-align: center;
     margin-top: 50px;
     font-family: $main_font;
 
     &__input {
-        width: 80%;
         font-size: 22pt;
         outline: none;
         border: none;
@@ -24,13 +20,18 @@
 
     &__submitBtn {
         margin-top: 10px;
-        font-size: 18pt;
+        font-size: 22pt;
         outline: none;
         border: none;
-        border: 2px solid $accent1;
+        border: 1px solid $accent1;
         background-color: $accent1;
         color: white;
     }
 
 }
 
+@media only screen and (max-width: 400px) {
+    .form__submitBtn  {
+        width: 20%;
+    }
+}
