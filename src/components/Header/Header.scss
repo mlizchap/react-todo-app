@@ -1,20 +1,13 @@
 @import "../../global";
 
 .header {
-    background-color: lightcoral;
+    background-color: $lightgreen;
+    color: $navyblue;
     width: 100%;
     text-align: center;
-    padding-top: 20px;
+    padding: 20px;
     font-size: 26pt;
+    font-family: $main_font;
 }
 
 
-// .header {
-//     font-family: $main_font;
-//     color: $accent2;
-//     text-align: center;
-//     //background-color: $accent1;
-//     font-size: 32pt;
-//     padding: 20px 0;
-//     margin-top: 40px;
-// }

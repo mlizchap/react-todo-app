@@ -5,6 +5,7 @@ import Input from '../Input/Input';
 import TodoList from '../TodoList/TodoList';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
 import './App.scss';
+import '../../global.scss';
 
 class App extends Component {
     constructor(props) {

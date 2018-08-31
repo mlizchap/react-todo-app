@@ -1,9 +1,8 @@
 @import "../../global";
 
-// .errorMessage {
-//     // width: $mainWidth;
-//     // max-width: $mainMaxWidth;
-//     margin: 5px auto 20px auto;
-//     font-family: $main_font;
-//     color: $warning;  
-// }
+.errorMessage {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 12pt;
+    color: lightcoral;
+}

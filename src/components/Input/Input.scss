@@ -4,8 +4,7 @@
 .form {
     display: flex;
     font-size: 22pt;
-    margin-top: 30px;
-    
+    margin-top: 70px;
 
     &__input {
         flex: 1;   
@@ -13,13 +12,12 @@
         font-size: inherit;
         outline: none;
         border: none;
-        color: $accent1;
-        border-bottom: 2px solid $accent1;
-        
+        color: $teal;
+        border-bottom: 2px solid $teal;
     } 
 
     &__submitBtn {
-        background-color: $accent1;
+        background-color: $teal;
         font-size: inherit;
         outline: none;
         border: none;
