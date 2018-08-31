@@ -1,37 +1,63 @@
 @import "../../global";
 
+
 .form {
-    text-align: center;
-    margin-top: 50px;
-    font-family: $main_font;
+    display: flex;
+    font-size: 22pt;
+    margin-top: 80px;
 
     &__input {
-        font-size: 22pt;
+        flex: 1;   
+        font-size: inherit;
         outline: none;
         border: none;
-        margin-top: 30px;
-        border-bottom: 2px solid $accent1;
         color: $accent1;
-        &:focus {
-            border-image: linear-gradient(to right, $accent2, $accent1);
-            border-image-slice: 1;
-        }
-    }
+        border-bottom: 2px solid $accent1;
+        
+    } 
 
     &__submitBtn {
-        margin-top: 10px;
-        font-size: 22pt;
+        background-color: $accent1;
+        font-size: inherit;
         outline: none;
         border: none;
-        border: 1px solid $accent1;
-        background-color: $accent1;
         color: white;
     }
-
 }
 
-@media only screen and (max-width: 400px) {
-    .form__submitBtn  {
-        width: 20%;
-    }
-}
+
+// .form {
+//     text-align: center;
+//     margin-top: 50px;
+//     font-family: $main_font;
+
+//     &__input {
+//         font-size: 22pt;
+//         outline: none;
+//         border: none;
+//         margin-top: 30px;
+//         border-bottom: 2px solid $accent1;
+//         color: $accent1;
+//         &:focus {
+//             border-image: linear-gradient(to right, $accent2, $accent1);
+//             border-image-slice: 1;
+//         }
+//     }
+
+//     &__submitBtn {
+//         margin-top: 10px;
+//         font-size: 22pt;
+//         outline: none;
+//         border: none;
+//         border: 1px solid $accent1;
+//         background-color: $accent1;
+//         color: white;
+//     }
+
+// }
+
+// @media only screen and (max-width: 400px) {
+//     .form__submitBtn  {
+//         width: 20%;
+//     }
+// }
