@@ -4,10 +4,11 @@
     font-size: 16pt;
     margin-top: 12px;
     padding: 6px;
-    border: 2px solid lightcoral;
-    background-color: rgb(252, 233, 233);
+    border-bottom: 1px solid $navy;
+    //background-color: rgb(252, 233, 233);
     // background-color: #ffe2ce;
     color: $navyblue;
+    margin:20px;
 }
 
 @media only screen and (max-width: 400px) {

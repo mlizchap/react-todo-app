@@ -5,6 +5,8 @@
     display: flex;
     font-size: 22pt;
     margin-top: 70px;
+    background-color: $yellow;
+    padding: 20px 20px 5px 20px;
 
     &__input {
         flex: 1;   
@@ -12,17 +14,20 @@
         font-size: inherit;
         outline: none;
         border: none;
-        color: $teal;
-        border-bottom: 2px solid $teal;
+        color: $navy;
+        border-bottom: 2px solid $navy;
         border-radius: 0;
+        background-color: $yellow;
     } 
 
     &__submitBtn {
-        background-color: $teal;
+        background-color: $yellow;
         font-size: inherit;
         outline: none;
         border: none;
-        color: white;
+        color: $navy;
+        font-size: 30pt;
+        padding-bottom: 0px;
         //width: 10px;
     }
 }
